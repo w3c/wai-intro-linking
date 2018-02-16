@@ -7,9 +7,17 @@ github:
   repository: w3c/wai-intro-linking
   branch: gh-pages
 ---
-<p>[@@ summary box]</p>
+
+{::nomarkdown}
+{% include box.html type="start" h="2" title="Summary" class="full" %}
+{:/}
+
 <p>This page provides general guidance on how to reference and link to guidelines and other technical documents. It suggests that you include a link to the overview page. It describes when to include a version number or &quot;dated URI&quot;, and when not to.</p>
-<p>[@@ end summary box] </p>
+
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
 <div>
   <h2>Page Contents</h2>
   <ul>
