@@ -18,8 +18,11 @@ github:
 {% include box.html type="end" %}
 {:/}
 
-<div>
-  <h2>Page Contents</h2>
+
+{::nomarkdown}
+{% include_cached toc.html type="start" title="Page Contents" class="full" %}
+{:/}
+
   <ul>
     <li><a href="#overview">Linking to Overview Pages</a></li>
     <li><a href="#trs">Referencing Guidelines and Other Technical Specifications</a></li>
@@ -27,7 +30,11 @@ github:
     <li><a href="#notes">Linking to Techniques and Other "Notes"</a></li>
     <li><a href="#waiaria">Referencing WAI-ARIA versus just ARIA</a></li>
   </ul>
-</div>
+
+{::nomarkdown}
+{% include_cached toc.html type="end" %}
+{:/}
+
 <h2><a name="overview" id="overview"></a>Linking to Overview Pages</h2>
 <p>In most cases, it is best to link to  the Overview page instead of the technical specification because <strong>the Overview page provides an introduction, links to related documents, and the status of revisions in progress</strong>. Overview pages include:</p>
 <ul>
