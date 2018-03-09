@@ -1,7 +1,6 @@
 ---
 title: Referencing and Linking to WAI Guidelines and Technical Documents
-permalink: /standards/linking/
-redirect_from: /
+permalink: /standards-guidelines/linking/
 layout: default
 github:
   repository: w3c/wai-intro-linking
