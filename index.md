@@ -37,7 +37,7 @@ github:
 <h2><a name="overview" id="overview"></a>Linking to Overview Pages</h2>
 <p>In most cases, it is best to link to  the Overview page instead of the technical specification because <strong>the Overview page provides an introduction, links to related documents, and the status of revisions in progress</strong>. Overview pages include:</p>
 <ul>
-  <li>Web Content Accessibility Guidelines <strong>(WCAG) Overview</strong> <a href="http://www.w3.org/WAI/intro/wcag">http://www.w3.org/WAI/intro/wcag</a></li>
+  <li>Web Content Accessibility Guidelines <strong>(WCAG) Overview</strong> <a href="{{ "/standards-guidelines/wcag/" | relative_url }}">http://www.w3.org/WAI/intro/wcag</a></li>
   <li>Authoring Tool Accessibility Guidelines <strong>(ATAG) Overview</strong> <a href="http://www.w3.org/WAI/intro/atag">http://www.w3.org/WAI/intro/atag</a></li>
   <li>User Agent Accessibility Guidelines <strong>(UAAG) Overview</strong> <a href="http://www.w3.org/WAI/intro/uaag">http://www.w3.org/WAI/intro/uaag</a></li>
   <li>Evaluation and Report Language <strong>(EARL) Overview</strong> <a href="http://www.w3.org/WAI/intro/earl">http://www.w3.org/WAI/intro/earl</a></li>
@@ -69,7 +69,7 @@ github:
 <h3>Links to the technical specification <em>and</em> the Overview page</h3>
 <p>Even when linking to the standard, it is usually good to include a link to the Overview page as well. For example:</p>
 <ul>
-  <li><a href="http://www.w3.org/TR/WCAG20">Web Content Accessibility Guidelines (WCAG) 2.0</a>, <a href="http://www.w3.org/WAI/intro/wcag">WCAG Overview</a></li>
+  <li><a href="http://www.w3.org/TR/WCAG20">Web Content Accessibility Guidelines (WCAG) 2.0</a>, <a href="{{ "/standards-guidelines/wcag/" | relative_url }}">WCAG Overview</a></li>
 </ul>
 <div class="fullwidth">
   <h2><a name="wcag" id="wcag"></a>Example: Linking to WCAG</h2>
@@ -82,7 +82,7 @@ github:
         <th scope="col">Will the content at this   URI change?</th>
       </tr>
       <tr>
-        <th scope="row"><a href="http://www.w3.org/WAI/intro/wcag">www.w3.org/<strong>WAI/intro/wcag</strong></a></th>
+        <th scope="row"><a href="{{ "/standards-guidelines/wcag/" | relative_url }}">www.w3.org/<strong>WAI/intro/wcag</strong></a></th>
         <td>For most links about WCAG</td>
         <td>WCAG Overview</td>
         <td><strong>Yes, content will be updated with new versions,</strong> but the fragments/targets/anchors will mostly remain stable</td>
