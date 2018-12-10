@@ -5,8 +5,9 @@ layout: default
 github:
   repository: w3c/wai-intro-linking
   branch: gh-pages
+feedbackmail: wai@w3.org
 footer: >
-  <p><strong>Date: </strong>Updated 15 February 2018. First published 11 March 2009.</p>
+  <p><strong>Date: </strong>Updated 10 December 2018. First published 11 March 2009.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
 
