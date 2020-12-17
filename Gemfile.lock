@@ -1,5 +1,17 @@
+PATH
+  remote: _external/data/wai-gems
+  specs:
+    wai-gems (1.0.0)
+      jekyll-github-metadata
+      jekyll-include-cache
+      jekyll-redirect-from
+      jekyll-relative-links
+      jekyll-remote-theme
+      jekyll-seo-tag
+      jekyll-sitemap
+      wai-website-plugin
+
 GEM
-  remote: https://rubygems.org/
   specs:
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
@@ -93,17 +105,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  jekyll-github-metadata
-  jekyll-include-cache
-  jekyll-redirect-from
-  jekyll-relative-links
-  jekyll-remote-theme
-  jekyll-seo-tag
-  jekyll-sitemap
-  wai-website-plugin
-
-RUBY VERSION
-   ruby 2.6.2p47
+  wai-gems!
 
 BUNDLED WITH
    2.2.1
