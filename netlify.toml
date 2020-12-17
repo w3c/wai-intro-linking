@@ -1,5 +1,6 @@
 [build]
-command = "git submodule update --init --remote && gem install bundler && bundle install && bundle exec jekyll build --config '_config.yml,_config_staging.yml'"
+# command = "git submodule update --init --remote && gem install bundler && bundle install && bundle exec jekyll build --config '_config.yml,_config_staging.yml'"
+command = "ls _external/data"
 publish = "_site"
 
 [build.environment]
