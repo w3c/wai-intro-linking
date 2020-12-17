@@ -4,7 +4,7 @@ command = "ls _external/data && git submodule status"
 publish = "_site"
 
 [build.environment]
-#RUBY_VERSION = "2.6.2" 
+RUBY_VERSION = "2.6.2" 
 
 [dev]
 publish = "_site"
