@@ -45,10 +45,9 @@ footer: >
 <p>In most cases, it is best to link to  the Overview page instead of the technical specification because <strong>the Overview page provides an introduction, links to related documents, and the status of revisions in progress</strong>. Overview pages include:</p>
 <ul>
   <li><strong>WCAG 2 Overview</strong> for Web Content Accessibility Guidelines <a href="{{ "/standards-guidelines/wcag/" | relative_url }}">https://www.w3.org/WAI/intro/wcag</a></li>
-  <li>Authoring Tool Accessibility Guidelines <strong>(ATAG) Overview</strong> <a href="{{ "/standards-guidelines/atag/" | relative_url }}">https://www.w3.org/WAI/intro/atag</a></li>
-  <li>User Agent Accessibility Guidelines <strong>(UAAG) Overview</strong> <a href="{{ "/standards-guidelines/uaag/" | relative_url }}">https://www.w3.org/WAI/intro/uaag</a></li>
-  <li>Evaluation and Report Language <strong>(EARL) Overview</strong> <a href="https://www.w3.org/WAI/intro/earl">https://www.w3.org/WAI/intro/earl</a></li>
   <li><strong>WAI-ARIA Overview </strong>for Accessible Rich Internet Applications <a href="https://www.w3.org/WAI/intro/aria">https://www.w3.org/WAI/intro/aria</a></li>
+  <li>User Agent Accessibility Guidelines <strong>(UAAG) Overview</strong> <a href="{{ "/standards-guidelines/uaag/" | relative_url }}">https://www.w3.org/WAI/intro/uaag</a></li>
+  <li>Authoring Tool Accessibility Guidelines <strong>(ATAG) Overview</strong> <a href="{{ "/standards-guidelines/atag/" | relative_url }}">https://www.w3.org/WAI/intro/atag</a></li>
 </ul>
 <h2><a name="trs" id="trs"></a>Referencing Guidelines and Other Technical Specifications</h2>
 <p>WAI's technical specifications (WCAG, WAI-ARIA, and the others listed above)  use a "shortname" in the URI (the Web address); for example, "WCAG" and "ATAG" are  shortnames. Specific versions are indicated with a number in the URL. Without a number, you get the latest version.</p>
