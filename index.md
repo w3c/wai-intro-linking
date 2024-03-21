@@ -6,9 +6,8 @@ github:
   repository: w3c/wai-intro-linking
   branch: gh-pages
 feedbackmail: wai@w3.org
-feedbackmail: wai@w3.org
 footer: >
-  <p><strong>Date: </strong>Updated 5 December 2023. First published 11 March 2009.</p>
+  <p><strong>Date: </strong>Updated 21 March 2024. First published 11 March 2009.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 
@@ -23,7 +22,6 @@ footer: >
 {::nomarkdown}
 {% include box.html type="end" %}
 {:/}
-
 
 {::nomarkdown}
 {% include_cached toc.html type="start" title="Page Contents" class="full" %}
@@ -110,7 +108,7 @@ footer: >
   </table>
 </div>
 <!-- end main -->
-<p><strong>For more formal guidance on referring to WCAG, see <a href="[https://www.w3.org/TR/UNDERSTANDING-WCAG20/appendixA.html](https://www.w3.org/WAI/WCAG22/Understanding/refer-to-wcag)">How to Refer to WCAG from Other Documents</a>.</strong></p>
+<p><strong>For more formal guidance on referring to WCAG, see <a href="https://www.w3.org/WAI/WCAG22/Understanding/refer-to-wcag">How to Refer to WCAG from Other Documents</a>.</strong></p>
 <h2><a name="notes" id="notes"></a>Linking to Techniques, Understanding Documents, and Other "Notes"</h2>
 <p>While the standards listed above will not change once they are completed, most of the the supporting  material that is advisory will be updated. Supporting technical material is usually published as WAI Resources. This includes:</p>
 <ul>
